@@ -1,0 +1,6 @@
+﻿  源.c
+E:\vscode_source\求根公式\源.c(6,7): warning C4013: “scanf”未定义；假设外部返回 int
+E:\vscode_source\求根公式\源.c(12,8): warning C4013: “printf”未定义；假设外部返回 int
+E:\vscode_source\求根公式\源.c(7): error C4700: 使用了未初始化的局部变量“b”
+E:\vscode_source\求根公式\源.c(7): error C4700: 使用了未初始化的局部变量“a”
+E:\vscode_source\求根公式\源.c(7): error C4700: 使用了未初始化的局部变量“c”

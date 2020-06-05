@@ -1,0 +1,12 @@
+﻿  源.c
+E:\vscode_source\四则运算\源.c(7,10): warning C4477: “scanf_s”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“double *”
+E:\vscode_source\四则运算\源.c(7,10): warning C4477: “scanf_s”: 格式字符串“%c”需要类型“unsigned int”的参数，但可变参数 3 拥有了类型“double *”
+E:\vscode_source\四则运算\源.c(7,10): message : 此参数用作缓冲区大小
+E:\vscode_source\四则运算\源.c(7,10): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+E:\vscode_source\四则运算\源.c(7,10): message : 占位符和其参数预计 4 可变参数，但提供的却是 3 参数
+E:\vscode_source\四则运算\源.c(7,10): message : 缺失的可变参数 4 为格式字符串“%d”所需
+E:\vscode_source\四则运算\源.c(11,10): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“double”
+E:\vscode_source\四则运算\源.c(15,10): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“double”
+E:\vscode_source\四则运算\源.c(18,10): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“double”
+E:\vscode_source\四则运算\源.c(22,11): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“double”
+  四则运算.vcxproj -> E:\vscode_source\四则运算\x64\Debug\四则运算.exe

@@ -1,0 +1,2 @@
+E:\vscode_source\转换为小写字母\Debug\转换为小写字母.exe
+E:\vscode_source\转换为小写字母\Debug\转换为小写字母.pdb

@@ -1,0 +1,2 @@
+E:\vscode_source\输出阶梯星号\Debug\输出阶梯星号.exe
+E:\vscode_source\输出阶梯星号\Debug\输出阶梯星号.pdb

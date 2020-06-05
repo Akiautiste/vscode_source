@@ -1,0 +1,2 @@
+E:\vscode_source\Project1\x64\Debug\三角形面积.exe
+E:\vscode_source\Project1\x64\Debug\三角形面积.pdb

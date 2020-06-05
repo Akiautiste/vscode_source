@@ -1,0 +1,4 @@
+﻿  源.c
+E:\vscode_source\运算公司运费计算\源.c(4,8): warning C4101: “f”: 未引用的局部变量
+E:\vscode_source\运算公司运费计算\源.c(4,23): warning C4101: “d”: 未引用的局部变量
+  运算公司运费计算.vcxproj -> E:\vscode_source\运算公司运费计算\Debug\运算公司运费计算.exe

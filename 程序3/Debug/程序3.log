@@ -1,0 +1,7 @@
+﻿  源.c
+E:\vscode_source\程序3\源.c(8,20): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+E:\vscode_source\程序3\源.c(9,20): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+E:\vscode_source\程序3\源.c(10,10): warning C4477: “printf”: 格式字符串“%f”需要类型“double”的参数，但可变参数 1 拥有了类型“long”
+E:\vscode_source\程序3\源.c(10,10): warning C4477: “printf”: 格式字符串“%f”需要类型“double”的参数，但可变参数 2 拥有了类型“long”
+E:\vscode_source\程序3\源.c(15,10): warning C4098: “main”:“void”函数返回值
+  程序3.vcxproj -> E:\vscode_source\程序3\Debug\程序3.exe

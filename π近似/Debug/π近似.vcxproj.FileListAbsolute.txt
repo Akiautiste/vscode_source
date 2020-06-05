@@ -1,0 +1,2 @@
+E:\vscode_source\π近似\Debug\π近似.exe
+E:\vscode_source\π近似\Debug\π近似.pdb

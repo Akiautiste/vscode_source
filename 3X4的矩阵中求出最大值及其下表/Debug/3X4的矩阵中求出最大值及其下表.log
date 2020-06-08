@@ -1,0 +1,3 @@
+﻿D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(3X4的矩阵中求出最大值及其下表.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  源.c
+  3X4的矩阵中求出最大值及其下表.vcxproj -> E:\vscode_source\3X4的矩阵中求出最大值及其下表\Debug\3X4的矩阵中求出最大值及其下标.exe

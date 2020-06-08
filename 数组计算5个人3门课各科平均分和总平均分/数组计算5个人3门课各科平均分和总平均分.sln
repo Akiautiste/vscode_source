@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数组计算5个人3门课各科平均分和总平均分", "数组计算5个人3门课各科平均分和总平均分.vcxproj", "{0889BC2E-F091-496A-8EAD-12B83A75C571}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0889BC2E-F091-496A-8EAD-12B83A75C571}.Debug|x64.ActiveCfg = Debug|x64
+		{0889BC2E-F091-496A-8EAD-12B83A75C571}.Debug|x64.Build.0 = Debug|x64
+		{0889BC2E-F091-496A-8EAD-12B83A75C571}.Debug|x86.ActiveCfg = Debug|Win32
+		{0889BC2E-F091-496A-8EAD-12B83A75C571}.Debug|x86.Build.0 = Debug|Win32
+		{0889BC2E-F091-496A-8EAD-12B83A75C571}.Release|x64.ActiveCfg = Release|x64
+		{0889BC2E-F091-496A-8EAD-12B83A75C571}.Release|x64.Build.0 = Release|x64
+		{0889BC2E-F091-496A-8EAD-12B83A75C571}.Release|x86.ActiveCfg = Release|Win32
+		{0889BC2E-F091-496A-8EAD-12B83A75C571}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2915865-B80C-4D83-9A22-F7117BCAE45E}
+	EndGlobalSection
+EndGlobal

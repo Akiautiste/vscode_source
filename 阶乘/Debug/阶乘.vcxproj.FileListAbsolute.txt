@@ -1,0 +1,2 @@
+E:\vscode_source\阶乘\Debug\阶乘.exe
+E:\vscode_source\阶乘\Debug\阶乘.pdb

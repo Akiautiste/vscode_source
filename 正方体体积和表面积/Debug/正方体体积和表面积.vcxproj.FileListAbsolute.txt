@@ -1,0 +1,2 @@
+E:\vscode_source\正方体体积和表面积\Debug\正方体体积和表面积.exe
+E:\vscode_source\正方体体积和表面积\Debug\正方体体积和表面积.pdb

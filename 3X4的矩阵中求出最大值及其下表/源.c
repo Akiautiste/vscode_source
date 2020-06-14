@@ -19,14 +19,17 @@ void main()
 				max = a[i][j];
 				r = i+1 ;
 				c = j+1 ;
-				f = 1;
+				//f = 1;
 			}
 		}
 	}
-	if (f)
-		printf("max number is : %d,row is %d,colum is %d", max, r, c);
-	else
-		printf("max number is %d,row is 1,colum 1\n", a[0][0]);
+	printf("max number is : %d,row is %d,colum is %d", max, r, c);
+#if 0
+	//if (f)
+		
+	//else
+	//	printf("max number is %d,row is 1,colum 1\n", a[0][0]);
+#endif
 }
 /*
 void main()

@@ -3,4 +3,9 @@ E:\vscode_source\【外部函数】输入字符删除相应字符\c0.c(11,10): w
 E:\vscode_source\【外部函数】输入字符删除相应字符\c0.c(11,10): message : 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
 E:\vscode_source\【外部函数】输入字符删除相应字符\c0.c(11,10): message : 缺失的可变参数 2 为格式字符串“%c”所需
 E:\vscode_source\【外部函数】输入字符删除相应字符\c0.c(11,10): message : 此参数用作缓冲区大小
+  c1.c
+E:\vscode_source\【外部函数】输入字符删除相应字符\c1.c(4,6): warning C4013: “gets”未定义；假设外部返回 int
+  c2.c
+  c3.c
+  正在生成代码...
   【外部函数】输入字符删除相应字符.vcxproj -> E:\vscode_source\【外部函数】输入字符删除相应字符\Debug\【外部函数】输入字符删除相应字符.exe

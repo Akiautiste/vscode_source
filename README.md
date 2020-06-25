@@ -1,2 +1,2 @@
 # vscode_source
-These code are my learning dairy！
+These codes are my learning dairy！

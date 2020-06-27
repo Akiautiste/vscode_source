@@ -1,0 +1,5 @@
+﻿  源.c
+E:\vscode_source\【宏定义】字符串连接\源.c(7,2): warning C4047: “函数”:“char *”与“errno_t”的间接级别不同
+E:\vscode_source\【宏定义】字符串连接\源.c(7,2): warning C4024: “strcat_s”: 形参和实参 1 的类型不同
+E:\vscode_source\【宏定义】字符串连接\源.c(7,2): warning C4244: “函数”: 从“double”转换到“rsize_t”，可能丢失数据
+  【宏定义】字符串连接.vcxproj -> E:\vscode_source\【宏定义】字符串连接\Debug\【宏定义】字符串连接.exe

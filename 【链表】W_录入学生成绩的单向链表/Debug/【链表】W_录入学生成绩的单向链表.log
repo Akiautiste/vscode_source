@@ -1,0 +1,4 @@
+﻿  源.c
+E:\vscode_source\【链表】W_录入学生成绩的单向链表\源.c(11,15): warning C4133: “=”: 从“student *”到“sutdent *”的类型不兼容
+E:\vscode_source\【链表】W_录入学生成绩的单向链表\源.c(12,11): warning C4133: “函数”: 从“sutdent *”到“student *”的类型不兼容
+  【链表】W_录入学生成绩的单向链表.vcxproj -> E:\vscode_source\【链表】W_录入学生成绩的单向链表\Debug\【链表】W_录入学生成绩的单向链表.exe

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#define STR(s1,s2,s3,sum) strcat_s(strcat_s(strcat_s(sum,40,s1),30,s2),2.,s3)
+#define STR(s1,s2,s3,sum) strcat_s(strcat_s(strcat_s(sum,40,s1),30,s2),40,s3) //VSŒ¥ µœ÷
 void main()
 {
 	char str1[] = "I", str2[] = "love", str3[] = "Fishc.com!", str[40] = "";

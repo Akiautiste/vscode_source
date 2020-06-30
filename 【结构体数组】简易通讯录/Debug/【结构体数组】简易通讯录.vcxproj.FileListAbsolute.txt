@@ -1,0 +1,2 @@
+E:\vscode_source\【结构体数组】简易通讯录\Debug\【结构体数组】简易通讯录.exe
+E:\vscode_source\【结构体数组】简易通讯录\Debug\【结构体数组】简易通讯录.pdb

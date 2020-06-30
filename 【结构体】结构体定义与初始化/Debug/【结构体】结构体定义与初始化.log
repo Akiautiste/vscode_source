@@ -1,0 +1,4 @@
+﻿  源.c
+E:\vscode_source\【结构体】结构体定义与初始化\源.c(12,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“char *”
+E:\vscode_source\【结构体】结构体定义与初始化\源.c(14,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“char *”
+  【结构体】结构体定义与初始化.vcxproj -> E:\vscode_source\【结构体】结构体定义与初始化\Debug\【结构体】结构体定义与初始化.exe

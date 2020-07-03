@@ -29,11 +29,11 @@ void main()
 	p2->next = NULL;
 
 	printf("Input a node to delete:\n");
-	scanf_s("%c",&t);
+	scanf_s("%c", &t);
 	p1 = p2 = head;
 	while (p1->next)
 	{
-		
+
 		if (t == p1->data)
 		{
 			p2->next = p1->next;
@@ -53,24 +53,24 @@ void print(struct node* head)
 	{
 		do
 		{
-			printf("%f\n",p->data);
+			printf("%f\n", p->data);
 			p = p->next;
 		} while (p);
 	}
 }
 #endif
 
-#define LEN sizeof(struct student) //student½á¹¹µÄ´óĞ¡
-struct student* creat(); //´´½¨Á´±í
-struct student* del(struct student* head, int num); //delÓÃ»§É¾³ı½Úµã£¬numÊÇÒªÉ¾³ıµÄ½Úµãnum
-void print(struct student* head);//´òÓ¡Á´±í
+#define LEN sizeof(struct student) //studentç»“æ„çš„å¤§å°
+struct student* creat(); //åˆ›å»ºé“¾è¡¨
+struct student* del(struct student* head, int num); //delç”¨æˆ·åˆ é™¤èŠ‚ç‚¹ï¼Œnumæ˜¯è¦åˆ é™¤çš„èŠ‚ç‚¹num
+void print(struct student* head);//æ‰“å°é“¾è¡¨
 struct student
 {
 	int num;
 	float score;
 	struct student* next;
 };
-int n;//È«¾Ö±äÁ¿£¬ÓÃÀ´¼ÇÂ¼´æ·ÅÁË¶àÉÙÊı¾İ
+int n;//å…¨å±€å˜é‡ï¼Œç”¨æ¥è®°å½•å­˜æ”¾äº†å¤šå°‘æ•°æ®
 void main()
 {
 	struct student* stu, * p;
@@ -84,7 +84,7 @@ void main()
 	printf("\n\n");
 	system("pause");
 }
-struct student *creat()
+struct student* creat()
 {
 	struct student* head;
 	struct student* p1, * p2;
@@ -94,21 +94,42 @@ struct student *creat()
 	scanf_s("%d", &p1->num);
 	printf("Please enter the score:");
 	scanf_s("%f", &p1->score);
-
 	head = NULL;
+	n = 0;
+	while (p1->num)
+	{
+		n++;
+		if (1 == n)
+		{
+			head = p1;
+		}
+		else
+		{
+			p2->next = p1;
+		}
+		p2 = p1;
+		p1 = (struct student*)malloc(LEN);
+		printf("Please enter the num:");
+		scanf_s("%d", &p1->num);
+
+		printf("Please enter the score:");
+		scanf_s("%f", &p1->score);
+	}
+	p2->next=NULL;
 	return head;
-	
+
 }
 void print(struct student* head)
 {
-	struct student *p;
+	struct student* p;
 	printf("\nThere are %d record!\n\n", n);
 	p = head;
 	if (head)
 	{
 		do
 		{
-			printf("Ñ§ºÅÎª%fµÄ³É¼¨ÊÇ£º%f\n", p->score);
+			printf("å­¦å·ä¸º%dçš„æˆç»©æ˜¯ï¼š%f\n",p->num, p->score);
+			p=p->next;
 		} while (p);
 	}
 }
@@ -116,15 +137,16 @@ void print(struct student* head)
 struct student* del(struct student* head, int num)
 {
 	struct student* p1, * p2;
-	if (NULL == head) //ÕâÊÇÒ»¸ö¿ÕÁ´±í
+	if (NULL == head) //è¿™æ˜¯ä¸€ä¸ªç©ºé“¾è¡¨
 	{
 		printf("\nThis is null!\n");
 		goto end;
 	}
-	p1 = head;
-	while (p1->num!=num&&p1->next!=NULL)
+	p2=p1 = head;
+	
+	while (p1->num != num && p1->next != NULL)
 	{
-		p2 = p1;
+		
 		p1 = p1->next;
 	}
 	if (num == p1->num)

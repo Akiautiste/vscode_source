@@ -1,0 +1,2 @@
+E:\vscode_source\【共用体】分别录入学生与教师信息\Debug\【共用体】分别录入学生与教师信息.exe
+E:\vscode_source\【共用体】分别录入学生与教师信息\Debug\【共用体】分别录入学生与教师信息.pdb

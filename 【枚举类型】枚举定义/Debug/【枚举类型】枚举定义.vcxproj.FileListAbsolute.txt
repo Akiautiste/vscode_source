@@ -1,0 +1,2 @@
+E:\vscode_source\【枚举类型】枚举定义\Debug\【枚举类型】枚举定义.exe
+E:\vscode_source\【枚举类型】枚举定义\Debug\【枚举类型】枚举定义.pdb

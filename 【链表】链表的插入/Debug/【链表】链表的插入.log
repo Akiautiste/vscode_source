@@ -1,3 +1,2 @@
 ﻿  源.c
-E:\vscode_source\【链表】链表的插入\源.c(109): error C4703: 使用了可能未初始化的本地指针变量“p2”
-E:\vscode_source\【链表】链表的插入\源.c(149): error C4703: 使用了可能未初始化的本地指针变量“p2”
+  【链表】链表的插入.vcxproj -> E:\vscode_source\【链表】链表的插入\Debug\【链表】链表的插入.exe

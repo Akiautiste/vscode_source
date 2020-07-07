@@ -34,6 +34,15 @@ void main()
 
 	p = insert(stu, &stu_2);
 	print(p);
+	/*
+	printf_s("\nPlease input the num to insert:");
+	scanf_s("%d", &stu_2.num);
+	printf("Please input the score:");
+	scanf_s("%f", &stu_2.score);
+	
+	p = insert(stu, &stu_2);
+	print(p);
+	*/
 }
 struct student* creat()   //´´½¨Á´±í
 {
@@ -93,6 +102,7 @@ struct student* del(struct student* head, int num)
 		goto end;
 	}
 	p1 = head;
+	p2 = NULL;
 	while (p1->num!=num&&p1->next!=NULL)
 	{
 		p2 = p1;
@@ -119,12 +129,12 @@ end:
 	return head;
 
 }
-
 struct student* insert(struct student* head, struct student* stu_2)
 {
 	struct student* p0, * p1, * p2;
 	p1 = head;
 	p0 = stu_2;
+	p2 = NULL;
 	if (NULL == head)
 	{
 		head = p0;

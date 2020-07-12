@@ -1,0 +1,6 @@
+﻿  源.c
+E:\vscode_source\reLearning\源.c(10,9): warning C4778: “printf”: 格式字符串“%\n”未终止
+E:\vscode_source\reLearning\源.c(10,29): warning C4474: printf: 格式字符串中传递的参数太多
+E:\vscode_source\reLearning\源.c(10,29): message : 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+E:\vscode_source\reLearning\源.c(15,10): warning C4098: “main”:“void”函数返回值
+  reLearning.vcxproj -> E:\vscode_source\reLearning\Debug\reLearning.exe

@@ -1,0 +1,2 @@
+E:\vscode_source\reLearning\Debug\reLearning.exe
+E:\vscode_source\reLearning\Debug\reLearning.pdb

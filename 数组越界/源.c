@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> //²»Ö§³Ö
 void main()
 {
 	int a = [10], i;

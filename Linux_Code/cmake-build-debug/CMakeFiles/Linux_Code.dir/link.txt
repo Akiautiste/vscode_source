@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/Linux_Code.dir/main.c.o  -o Linux_Code 

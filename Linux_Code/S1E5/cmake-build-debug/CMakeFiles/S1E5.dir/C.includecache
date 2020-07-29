@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/akihabara/D2E5D91B2CACDC18/vscode_source/Linux_Code/S1E5/哈哈哈.c
+stdio.h
+-
+math.h
+-
+

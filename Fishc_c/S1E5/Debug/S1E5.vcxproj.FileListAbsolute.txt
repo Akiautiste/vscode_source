@@ -1,0 +1,2 @@
+E:\vscode_source\Fishc_c\S1E5\Debug\S1E5.exe
+E:\vscode_source\Fishc_c\S1E5\Debug\S1E5.pdb

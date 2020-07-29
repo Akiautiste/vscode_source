@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\S1E6.dir/objects.a
+D:\MinGW\bin\ar.exe cr CMakeFiles\S1E6.dir/objects.a @CMakeFiles\S1E6.dir\objects1.rsp
+D:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\S1E6.dir/objects.a -Wl,--no-whole-archive  -o S1E6.exe -Wl,--out-implib,libS1E6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\S1E6.dir\linklibs.rsp

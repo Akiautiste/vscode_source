@@ -215,6 +215,8 @@ int main()
 	return 0;
 }
 #endif
+
+#if 0
 #include <stdio.h>
 #include <windows.h>
 //设置光标位置
@@ -243,4 +245,20 @@ void setCursorPosition(int x, int y) {
 //自定义的文字颜色函数
 void setColor(int color) {
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
+}
+#endif
+
+long sum(int n) {
+	//为了增加每次函数调用的内存，额外增加了一个无用的数组，它占用 1KB 的内存
+	int arr[250];
+	if (n <= 1) {
+		return n;
+	}
+	else {
+		return  n + sum(n - 1);
+	}
+}
+int main() {
+	printf("从1加到1000的值为 %ld\n", sum(1000));
+	return 0;
 }
